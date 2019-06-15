@@ -4,7 +4,7 @@ version '1.0'
 repositories {
     mavenCentral()
 }
-
+configurations { providedCompile }
 dependencies {
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     providedCompile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'

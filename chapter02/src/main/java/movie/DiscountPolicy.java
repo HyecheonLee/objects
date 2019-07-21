@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public abstract class DiscountPolicy {
-    private List<DisCountCondition> conditions = new ArrayList<>();
+    private List<DisCountCondition> conditions;
 
     public DiscountPolicy(DisCountCondition... conditions) {
         this.conditions = Arrays.asList(conditions);

@@ -5,12 +5,12 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="1.8.0_191" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/chapter01" />
             <option value="$PROJECT_DIR$/chapter02" />
+            <option value="$PROJECT_DIR$/chapter02k" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

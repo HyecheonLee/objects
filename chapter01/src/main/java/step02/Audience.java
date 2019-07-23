@@ -13,4 +13,12 @@ public class Audience {
     public Long buy(Ticket ticket) {
         return bag.hold(ticket);
     }
+
+    public Bag getBag() {
+        return bag;
+    }
+
+    public void setBag(Bag bag) {
+        this.bag = bag;
+    }
 }

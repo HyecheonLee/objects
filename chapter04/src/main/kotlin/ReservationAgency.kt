@@ -37,4 +37,9 @@ class ReservationAgency {
         }
         return Reservation(customer, screening, fee, audienceCount)
     }
+
+    fun reserve2(screening: Screening, customer: Customer, audienceCount: Int): Reservation {
+        val fee = screening.calculateFee(audienceCount)
+        return Reservation(customer, screening, fee, audienceCount)
+    }
 }

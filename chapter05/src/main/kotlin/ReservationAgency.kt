@@ -7,29 +7,11 @@ class ReservationAgency {
 
     private fun checkDiscountable(screening: Screening): Boolean {
         return screening.movie.discountConditions.any { condition ->
-            isDiscountable(condition, screening)
+            condition.isDiscountable(screening)
         }
     }
 
-    private fun isDiscountable(condition: DiscountCondition, screening: Screening): Boolean {
-        return if (condition.type == DiscountConditionType.PERIOD) {
-            isSatisfiedByPeriod(condition, screening)
-        } else {
-            isSatisfiedBySequence(condition, screening)
-        }
-    }
-
-    private fun isSatisfiedBySequence(condition: DiscountCondition, screening: Screening): Boolean {
-        return condition.sequence == screening.sequence
-    }
-
-    private fun isSatisfiedByPeriod(condition: DiscountCondition, screening: Screening): Boolean {
-        return (screening.whenScreened.dayOfWeek == condition.dayOfWeek) and
-                (condition.startTime <= screening.whenScreened.toLocalTime()) and
-                (condition.endTime >= screening.whenScreened.toLocalTime())
-    }
-
-    fun calculateFee(screening: Screening, discountable: Boolean, audienceCount: Int): Money {
+    private fun calculateFee(screening: Screening, discountable: Boolean, audienceCount: Int): Money {
         return if (discountable) {
             screening.movie.fee.minus(calculateDiscountedFee(screening.movie))
                     .times(audienceCount)

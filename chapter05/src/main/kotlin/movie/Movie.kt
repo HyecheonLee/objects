@@ -6,11 +6,11 @@ import discount_condition.DiscountCondition
 import java.time.Duration
 import java.util.*
 
-abstract class Movie(private val title: String,
-                     private val runningTime: Duration,
-                     protected val fee: Money,
+abstract class Movie(public val title: String,
+                     public val runningTime: Duration,
+                     public val fee: Money,
                      vararg discountConditions: DiscountCondition) {
-    private val discountConditions: List<DiscountCondition> = listOf(*discountConditions)
+    public val discountConditions: List<DiscountCondition> = listOf(*discountConditions)
 
     fun calculateMovieFee(screening: Screening): Money {
         return if (isDiscountable(screening)) {

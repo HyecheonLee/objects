@@ -1,4 +1,4 @@
-import java.lang.IllegalStateException
+import discount_condition.DiscountCondition
 import java.time.Duration
 
 class Movie {

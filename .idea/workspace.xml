@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/discount_condition/DiscountCondition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/discount_condition/PeriodCondition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/discount_condition/SequenceCondition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/movie/AmountDiscountMovie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/movie/Movie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/movie/NoneDiscountMovie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/movie/PercentDiscountMovie.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/src/main/kotlin/DiscountCondition.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/src/main/kotlin/Movie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/Movie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/src/main/kotlin/Movie.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/src/main/kotlin/Screening.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/src/main/kotlin/Screening.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +49,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>when</find>
-      <find>when (</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -81,8 +76,9 @@
       <recent name="" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="discount_condition" />
+      <recent name="movie" />
       <recent name="" />
+      <recent name="discount_condition" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="" />
@@ -130,7 +126,7 @@
       <workItem from="1563950728786" duration="3970000" />
       <workItem from="1564048574909" duration="962000" />
       <workItem from="1564062600891" duration="14000" />
-      <workItem from="1564143255522" duration="3399000" />
+      <workItem from="1564143255522" duration="5393000" />
     </task>
     <task id="LOCAL-00001" summary="ch02">
       <created>1563692636936</created>
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564146397106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ch05 02 discountCondition">
+      <created>1564147155269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564147155269</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +209,8 @@
     <MESSAGE value="ch04 01" />
     <MESSAGE value="ch04 02" />
     <MESSAGE value="ch05 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch05 01" />
+    <MESSAGE value="ch05 02 discountCondition" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch05 02 discountCondition" />
   </component>
   <component name="masterDetails">
     <states>

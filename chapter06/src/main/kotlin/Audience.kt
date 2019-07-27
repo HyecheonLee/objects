@@ -1,5 +1,5 @@
 data class Audience(var bag: Bag) {
-    fun setTicket(ticket: Ticket): Long {
-        return bag.setTicket(ticket)
+    fun buy(ticket: Ticket): Long {
+        return bag.hold(ticket)
     }
 }

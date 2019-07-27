@@ -1,5 +1,5 @@
 data class TicketSeller(val ticketOffice: TicketOffice) {
-    fun setTicket(audience: Audience) {
-        ticketOffice.plusAmount(audience.setTicket(ticketOffice.ticket))
+    fun sellTo(audience: Audience) {
+        ticketOffice.plusAmount(audience.buy(ticketOffice.ticket))
     }
 }

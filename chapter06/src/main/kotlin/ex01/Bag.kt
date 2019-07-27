@@ -1,3 +1,5 @@
+package ex01
+
 data class Bag(var amount: Long,
                val invitation: Invitation,
                private var ticket: Ticket) {

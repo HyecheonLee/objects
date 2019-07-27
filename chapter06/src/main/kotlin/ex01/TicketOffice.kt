@@ -1,3 +1,5 @@
+package ex01
+
 import java.util.*
 
 class TicketOffice(private var amount: Long, vararg tickets: Ticket) {

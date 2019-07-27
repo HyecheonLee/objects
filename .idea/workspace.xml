@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex02/Event.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex02/RecurringSchedule.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Audience.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/Audience.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Bag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/Bag.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Theater.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/Theater.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/TicketSeller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/TicketSeller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Audience.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/Audience.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Bag.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/Bag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Invitation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/Invitation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Theater.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/Theater.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/Ticket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/Ticket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/TicketOffice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/TicketOffice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter06/src/main/kotlin/TicketSeller.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter06/src/main/kotlin/ex01/TicketSeller.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ex01" />
       <recent name="" />
       <recent name="movie" />
       <recent name="discount_condition" />
@@ -127,7 +133,7 @@
       <workItem from="1564143255522" duration="8357000" />
       <workItem from="1564213544165" duration="678000" />
       <workItem from="1564214279979" duration="1000000" />
-      <workItem from="1564228101199" duration="4342000" />
+      <workItem from="1564228101199" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="ch02">
       <created>1563692636936</created>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564234661639</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ch06 03 의도 드러내기">
+      <created>1564235500335</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564235500335</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +256,7 @@
     <MESSAGE value="ch05 04 ReservationAgency" />
     <MESSAGE value="ch06 01" />
     <MESSAGE value="ch06 02 다미터 법칙" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch06 02 다미터 법칙" />
+    <MESSAGE value="ch06 03 의도 드러내기" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch06 03 의도 드러내기" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="모듈화">
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data_type/employee.kt" afterDir="false" />
+    <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class/employee.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +57,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/chapter02k/src/main/kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data_type" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -83,11 +83,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data_type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data+type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/d_module" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/c_data_change" />
-      <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/b_add_function" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564315257946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ch07 데이터 추상">
+      <created>1564317173414</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564317173414</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +302,7 @@
     <MESSAGE value="ch07 02 함수 추가." />
     <MESSAGE value="ch07 04 데이터 변경." />
     <MESSAGE value="모듈화" />
-    <option name="LAST_COMMIT_MESSAGE" value="모듈화" />
+    <MESSAGE value="ch07 데이터 추상화" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch07 데이터 추상화" />
   </component>
 </project>

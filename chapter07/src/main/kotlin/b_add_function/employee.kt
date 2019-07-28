@@ -9,7 +9,8 @@ fun main(args: Array<String>) {
     start("basePays")
 }
 
-fun start(operation: String, name: String = "") {
+fun start(operation: String,
+          name: String = "") {
     when (operation) {
         "pay" -> calculatePay(name)
         "basePays" -> sumOfBasePays()

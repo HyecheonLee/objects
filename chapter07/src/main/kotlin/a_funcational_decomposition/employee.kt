@@ -1,3 +1,5 @@
+package a_funcational_decomposition
+
 import java.util.*
 
 val employees = listOf("직원A", "직원B", "직원C")

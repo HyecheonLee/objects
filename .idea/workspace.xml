@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class/employee.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/Call.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/Money.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/NightlyDiscountPhone.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/Phone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,9 +76,6 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.rmicompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/a_funcational_decomposition" />
     </key>
@@ -79,15 +85,18 @@
       <recent name="movie" />
       <recent name="discount_condition" />
     </key>
-    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data_type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data+type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/d_module" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/c_data_change" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,6 +110,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="oop-book.chapter10.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -132,6 +161,9 @@
       <workItem from="1564213544165" duration="678000" />
       <workItem from="1564214279979" duration="1000000" />
       <workItem from="1564228101199" duration="5870000" />
+      <workItem from="1564329847434" duration="9000" />
+      <workItem from="1564669847334" duration="17000" />
+      <workItem from="1564669885711" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="ch02">
       <created>1563692636936</created>
@@ -252,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564317173414</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ch07 클레스기반">
+      <created>1564318382467</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564318382467</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,6 +342,7 @@
     <MESSAGE value="ch07 04 데이터 변경." />
     <MESSAGE value="모듈화" />
     <MESSAGE value="ch07 데이터 추상화" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch07 데이터 추상화" />
+    <MESSAGE value="ch07 클레스기반" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch07 클레스기반" />
   </component>
 </project>

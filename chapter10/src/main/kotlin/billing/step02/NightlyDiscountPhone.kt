@@ -12,13 +12,13 @@ data class NightlyDiscountPhone(private val nightlyAmount: Money,
 
     fun calculateFee(): Money {
         return calls.fold(Money.ZERO,
-                fun(money: Money, call: Call): Money {
+                { money, call ->
                     val result = if (call.from.hour >= LATE_NIGHT_HOUR) {
                         money.plus(nightlyAmount.times(call.getDuration().seconds / seconds.seconds))
                     } else {
                         money.plus(regularAmount.times(call.getDuration().seconds / seconds.seconds))
                     }
-                    return result.plus(result.times(taxRate))
+                    result.plus(result.times(taxRate))
                 }
         )
     }

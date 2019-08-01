@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960ca82a-1973-4a2a-b9d7-bc1be55d1d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step02/Call.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step02/NightlyDiscountPhone.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step02/Phone.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step03/Call.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step03/NightlyDiscountPhone.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step03/Phone.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/src/main/kotlin/Call.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step01/Call.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step01/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/src/main/kotlin/NightlyDiscountPhone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step01/NightlyDiscountPhone.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/src/main/kotlin/Phone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step01/Phone.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +59,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="12" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/chapter02k/src/main/kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -85,11 +81,11 @@
       <recent name="discount_condition" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter10/src/main/kotlin/billing/step03" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/f_class" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data_type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/e_abstract_data+type" />
       <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/d_module" />
-      <recent name="$PROJECT_DIR$/chapter07/src/main/kotlin/c_data_change" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="billing.step02" />
@@ -163,7 +159,7 @@
       <workItem from="1564228101199" duration="5870000" />
       <workItem from="1564329847434" duration="9000" />
       <workItem from="1564669847334" duration="17000" />
-      <workItem from="1564669885711" duration="2252000" />
+      <workItem from="1564669885711" duration="3079000" />
     </task>
     <task id="LOCAL-00001" summary="ch02">
       <created>1563692636936</created>
@@ -298,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564671805796</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ch10 ex02 중복코드 수정하기.">
+      <created>1564672221866</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564672221866</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +354,7 @@
     <MESSAGE value="ch07 데이터 추상화" />
     <MESSAGE value="ch07 클레스기반" />
     <MESSAGE value="ch10 ex 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch10 ex 01" />
+    <MESSAGE value="ch10 ex02 중복코드 수정하기." />
+    <option name="LAST_COMMIT_MESSAGE" value="ch10 ex02 중복코드 수정하기." />
   </component>
 </project>

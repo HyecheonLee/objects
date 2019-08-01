@@ -1,3 +1,6 @@
+package billing.step01
+
+import Money
 import java.time.Duration
 
 data class NightlyDiscountPhone(private val nightlyAmount: Money, private val regularAmount: Money, private val seconds: Duration, private val calls: ArrayList<Call> = ArrayList()) {

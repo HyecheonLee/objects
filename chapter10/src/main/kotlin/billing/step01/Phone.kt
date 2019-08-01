@@ -1,3 +1,6 @@
+package billing.step01
+
+import Money
 import java.time.Duration
 
 class Phone(private val amount: Money, private val seconds: Duration, private val calls: ArrayList<Call> = ArrayList()) {
